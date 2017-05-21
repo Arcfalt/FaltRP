@@ -8,10 +8,10 @@ namespace FaltRP.Enums
 	public enum Stat
 	{
 		Strength = StatConsts.STAT_STR,
-		Dexterity = StatConsts.STAT_DEX,
-		Constitution = StatConsts.STAT_CON,
+		Finesse = StatConsts.STAT_FIN,
+		Endurance = StatConsts.STAT_END,
 		Intellect = StatConsts.STAT_INT,
-		Wisdom = StatConsts.STAT_WIS,
-		Charisma = StatConsts.STAT_CHA
+		Willpower = StatConsts.STAT_WIL,
+		Presence = StatConsts.STAT_PRE
 	}
 }

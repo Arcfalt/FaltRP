@@ -8,17 +8,19 @@ namespace FaltRP.Characters
 	public class Character : ScriptableObject
 	{
 		/// <summary>
+		/// Name of the character
+		/// Prefix with @ to set as localized tag
+		/// </summary>
+		[SerializeField]
+		[Header("Text Display")]
+		private string _name;
+
+		/// <summary>
 		/// Base stats of the character
 		/// </summary>
 		[Header("Statistics")]
 		[SerializeField]
 		private Stats _baseStats;
-
-		/// <summary>
-		/// Name of the character
-		/// </summary>
-		[SerializeField]
-		private string _name;
 
 		/// <summary>
 		/// Get the base stat of this character by type
