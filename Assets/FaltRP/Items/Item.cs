@@ -24,6 +24,7 @@ namespace FaltRP.Items
 		/// Prefix with @ to set as localized tag
 		/// </summary>
 		[SerializeField]
+		[Multiline]
 		private string _description;
 
 		/// <summary>

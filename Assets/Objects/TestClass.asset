@@ -8,15 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba2f0b5df2f7c8045b861e0411245f03, type: 3}
-  m_Name: TestItem
+  m_Script: {fileID: 11500000, guid: b50503fd4b64e1a4ebdee792e1835475, type: 3}
+  m_Name: TestClass
   m_EditorClassIdentifier: 
-  _name: Test Item
-  _description: This is the testiest of items.
-  _price: 10
-  _weight: 1
-  _stackAmount: 20
-  _requiredStats:
+  _name: Test Class
+  _description: This class is pretty testy.
+  _statMods:
     _stats: 000000000000000000000000000000000000000000000000
-  _onUseAbility:
-    _abilityId: 
